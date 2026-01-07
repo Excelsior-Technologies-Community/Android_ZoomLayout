@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ZoomLayout">
+
+        <!-- Enable / Disable -->
+        <attr name="zoomEnabled" format="boolean"/>
+        <attr name="scrollEnabled" format="boolean"/>
+        <attr name="flingEnabled" format="boolean"/>
+
+        <!-- Pan -->
+        <attr name="horizontalPanEnabled" format="boolean"/>
+        <attr name="verticalPanEnabled" format="boolean"/>
+
+        <!-- Gesture -->
+        <attr name="oneFingerScrollEnabled" format="boolean"/>
+        <attr name="twoFingersScrollEnabled" format="boolean"/>
+        <attr name="threeFingersScrollEnabled" format="boolean"/>
+
+        <!-- Zoom -->
+        <attr name="minZoom" format="float"/>
+        <attr name="maxZoom" format="float"/>
+
+        <!-- Overscroll -->
+        <attr name="overScrollHorizontal" format="boolean"/>
+        <attr name="overScrollVertical" format="boolean"/>
+        <attr name="overPinchable" format="boolean"/>
+
+        <!-- Animation -->
+        <attr name="animationDuration" format="integer"/>
+
+        <!-- Alignment -->
+        <attr name="alignment">
+            <enum name="center" value="0"/>
+            <enum name="topLeft" value="1"/>
+        </attr>
+
+        <!-- Click handling -->
+        <attr name="hasClickableChildren" format="boolean"/>
+
+    </declare-styleable>
+
+</resources>
