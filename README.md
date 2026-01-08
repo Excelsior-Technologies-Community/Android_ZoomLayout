@@ -24,9 +24,8 @@ ZoomLayout is a lightweight custom Android ViewGroup that enables **zooming, pan
 # **Preview**
 ---
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6d6f8142-9385-4014-a63d-0a1e63961e5c"
-       alt="Demo GIF"
-       width="200">
+<img src="https://github.com/S13reya/Android_ZoomLayout/blob/stages/app/src/main/assets/demovideo.gif" height="320"/>
+
 
 
 
